@@ -1,9 +1,10 @@
 
 const Part = (props) => {
+    console.log(props.part)
     return (
         <>
         <p>
-        {props.data.part} {props.data.exercises}
+        {props.part.name} {props.part.exercises}
         </p>
         </>
     )
